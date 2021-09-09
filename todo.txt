@@ -1,0 +1,1 @@
+[ ] comentar sobre dados sem valores, como no caso de algumas idades e data de alta

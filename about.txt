@@ -1,0 +1,16 @@
+Anomalias nos dados:
+
+1. alguns campos 'idade' estão vazios;
+    -> casos nos quais a pessoa tem menos de um ano (???)
+    -> 15 no total;
+    -> print(data[pd.isnull(data['idade'])])
+
+2. alguns campos 'data_alta' estão vazios;
+    -> casos nos quais a pessoa em questão ainda está internada;
+    -> 48 no total;
+    -> print(data.loc[data['situacao'] == 'INTERNADA', ['situacao', 'data_alta']])
+
+3. alguns campos 'horas_na_fila' estão negativos;
+    -> casos nos quais a data de internação é menor que a data de autorização;
+    -> 379 no total;
+    -> print(data.loc[data['horas_na_fila'] < 0, ['data_autorizacao', 'data_internacao', 'horas_na_fila']])
