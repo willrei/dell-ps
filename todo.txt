@@ -1,1 +1,5 @@
-[ ] comentar sobre dados sem valores, como no caso de algumas idades e data de alta
+[ ] comentar sobre dados sem valores, como no caso de algumas idades e data de alta;
+[ ] explicar por que o pandas não foi utilizado na implementação em si;
+[ ] explicitar que os pacientes sem gênero informado não foram contabilizados nas idades
+
+[ ] sugestão de entrada enquanto o usuário digita utilizando uma trie;
